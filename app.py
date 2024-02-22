@@ -22,5 +22,5 @@ def mostrar_estudiantes():
     # Renderizar la plantilla HTML con los datos obtenidos
     return render_template('index.html', filas=filas)
 
-if __name__ == 'main':
+if __name__ == '__main__':
     app.run(debug=True)
