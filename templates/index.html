@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiantes</title>
+</head>
+<body>
+    <h1>Lista de Estudiantes</h1>
+    <ul>
+        {% for fila in filas %}
+            <li>id: {{ fila[0] }}, nombre1: {{ fila[1] }}, nombre2: {{ fila[2] }}, apellido1: {{ fila[3] }}, apellido2: {{ fila[4] }}, telefono: {{ fila[5] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
